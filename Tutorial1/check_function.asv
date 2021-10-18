@@ -1,0 +1,4 @@
+length=[5,10];
+breadth=[4,10];
+depth=[3,8];
+[vol,surf]=cubiod(length,breadth,depth);
