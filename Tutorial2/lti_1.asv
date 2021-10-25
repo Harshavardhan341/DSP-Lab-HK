@@ -1,0 +1,6 @@
+clf;
+clear;
+x=input('enter input sequence');%x=[1 4 2 6]
+h = input('enter h(n)');
+x1 = length(x);
+x2 = 
