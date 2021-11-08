@@ -1,0 +1,6 @@
+clear;
+clc;
+clf;
+num=[1 1];
+den = [1 -0.77];
+[

@@ -1,0 +1,6 @@
+clear;clc;
+n=0:100;
+phi=3*pi/8;
+x=1+sin(pi*n/12 + phi);
+X=fft(x,102);
+plot(n,X)
