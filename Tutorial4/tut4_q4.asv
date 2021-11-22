@@ -1,0 +1,10 @@
+w_p=0.2*pi;
+w_s=0.3*pi;
+M=input('Enter orderof filter:');
+pass = fix(w_p*M/(2*pi))+1;%kp
+stop = fix(w_s*M/(2*pi))+1;%ks
+trans = stop-pass;
+if rem(M,2)==U,
+    U=M/2-1; 
+else
+    
